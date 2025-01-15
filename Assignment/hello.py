@@ -1,0 +1,16 @@
+input
+#An unexpected animal
+print("Please enter the following:")
+adjective= input('adjective:')
+print(adjective)
+animal= input('animal:')
+print(animal)
+verb1= input ('verb:')
+print(verb1)
+exclamation= input('exclamation:')
+print(exclamation)
+verb2= input('verb:')
+print(verb2)
+verb3= input('verb:')
+print(verb3)
+print("The other day, I was really in trouble. It all started when I saw a very\n" "" +adjective+ " " +animal+ " " +verb1+" down to the hallway. "+exclamation+"! I yelled. But all \nI could think to do was to "+verb2+" over an over. Miraculously, \nthat caused it to stop, but not before it tried to "+verb3+"\nright in front of my family.")

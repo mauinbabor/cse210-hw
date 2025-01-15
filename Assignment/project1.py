@@ -1,0 +1,1 @@
+print("There are " + dolls + " dolls")

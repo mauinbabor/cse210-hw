@@ -1,0 +1,39 @@
+/* Center and constrain the main section */
+main {
+    max-width: 900px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
+    gap: 20px; /* Space between cards */
+  }
+  
+  /* Style the cards */
+  .card {
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  }
+  
+  /* Style headings and content inside the card */
+  .card h2 {
+    font-family: 'Roboto', sans-serif; /* Use Google Fonts */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 8px; /* Match card corners */
+  }
+  
+  .card p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
